@@ -17,6 +17,7 @@ public class SkillService {
 		return sr.findAll();		
 	}
 	
+	@SuppressWarnings("deprecation")
 	public Skill obtenerUser(Integer id) {
 		//return ur.getReferenceById(id);
 		return sr.getOne(id);

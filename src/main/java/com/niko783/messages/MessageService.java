@@ -20,6 +20,7 @@ public class MessageService {
 		return mr.findAll();		
 	}
 	
+	@SuppressWarnings("deprecation")
 	public Message obtener(Integer id) {
 		//return ur.getReferenceById(id);
 		return mr.getOne(id);
