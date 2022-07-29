@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://nikolopez783.web.app/home")
 public class SkillController {
 	@Autowired
 	private SkillService ss;
